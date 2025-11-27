@@ -26,3 +26,56 @@ body{
     color: inherit;
     list-style: none;
 }
+/* --- ESTILO DO CONTEÚDO PRINCIPAL --- */
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto; /* Centraliza o conteúdo e adiciona margem */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.95); /* Fundo branco semi-transparente para legibilidade */
+    border-radius: 10px;
+}
+
+/* --- ESTILO DA SEÇÃO 'SOBRE NÓS' --- */
+.about-us h1 {
+    color: #0056b3; /* Azul escuro para o título principal */
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #0056b3;
+}
+
+.about-us h2 {
+    color: #007bff; /* Azul para subtítulos */
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.about-us p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.about-us li {
+    list-style: disc;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.about-us strong {
+    color: #333;
+    font-weight: bold;
+}
+/* --- ESTILO DO RODAPÉ --- */
+footer {
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    width: 100%;
+}
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
