@@ -11,6 +11,7 @@ body{
     padding: 20px;
     background-image: url(images/backgroud-temp.jpg);
     background-size: cover;
+    margin-bottom: 60px; 
 }
 .navbar {
     
@@ -26,19 +27,18 @@ body{
     color: inherit;
     list-style: none;
 }
-/* --- ESTILO DO CONTEÚDO PRINCIPAL --- */
+
 main {
     width: 90%;
     max-width: 1000px;
-    margin: 40px auto; /* Centraliza o conteúdo e adiciona margem */
+    margin: 40px auto; 
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.95); /* Fundo branco semi-transparente para legibilidade */
+    background-color: rgba(255, 255, 255, 0.95);
     border-radius: 10px;
 }
 
-/* --- ESTILO DA SEÇÃO 'SOBRE NÓS' --- */
 .about-us h1 {
-    color: #0056b3; /* Azul escuro para o título principal */
+    color: #0056b3; 
     text-align: center;
     margin-bottom: 20px;
     padding-bottom: 10px;
@@ -46,7 +46,7 @@ main {
 }
 
 .about-us h2 {
-    color: #007bff; /* Azul para subtítulos */
+    color: #007bff;
     margin-top: 30px;
     margin-bottom: 15px;
 }
@@ -66,11 +66,11 @@ main {
     color: #333;
     font-weight: bold;
 }
-/* --- ESTILO DO RODAPÉ --- */
 footer {
     text-align: center;
     padding: 15px 0;
-    margin-top: 20px;
+    position: fixed; 
+    bottom: 0; 
     background-color: rgba(0, 0, 0, 0.8);
     color: #fff;
     width: 100%;
@@ -78,4 +78,5 @@ footer {
 footer p {
     margin: 0;
     font-size: 14px
+
 }
