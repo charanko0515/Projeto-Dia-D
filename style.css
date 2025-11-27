@@ -28,6 +28,10 @@ body{
     list-style: none;
 }
 
+
+
+
+
 main {
     width: 90%;
     max-width: 1000px;
@@ -69,11 +73,12 @@ main {
 footer {
     text-align: center;
     padding: 15px 0;
-    position: fixed; 
     bottom: 0; 
     background-color: rgba(0, 0, 0, 0.8);
     color: #fff;
     width: 100%;
+    box-sizing: border-box; 
+    z-index: 10; 
 }
 footer p {
     margin: 0;
