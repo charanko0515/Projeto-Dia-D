@@ -70,6 +70,76 @@ main {
     color: #333;
     font-weight: bold;
 }
+dicadores de Qualidade Educacional 
+.about-us h3 {
+
+    color: #004d40;
+    border-bottom: 2px solid #004d40;
+    padding-bottom: 5px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 1.3em;
+}
+
+.indicators-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 0.95em;
+    text-align: left;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.indicators-table th, .indicators-table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+.indicators-table th {
+    background-color: #e0f2f1; 
+    color: #004d40;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.indicators-table tr:nth-child(even) {
+    background-color: #f9f9f9; 
+}
+
+.indicators-table tr:hover {
+    background-color: #f0f0f0;
+}
+
+.patron-info {
+    margin-top: 20px;
+    padding: 15px;
+    border-left: 5px solid #009688; 
+    background-color: #f4fffd;
+}
+
+.patron-info strong {
+    color: #00796b;
+    font-size: 1.1em;
+}
+
+.patron-info ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 10px;
+}
+
+.patron-info ul li {
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10"><circle cx="5" cy="5" r="5" fill="%23004d40"/></svg>') no-repeat left center;
+    background-size: 8px;
+    padding-left: 15px;
+    margin-bottom: 5px;
+    line-height: 1.5;
+}
+
+.patron-info p {
+    margin-bottom: 10px;
+}
+
 footer {
     text-align: center;
     padding: 15px 0;
@@ -85,3 +155,4 @@ footer p {
     font-size: 14px
 
 }
+
