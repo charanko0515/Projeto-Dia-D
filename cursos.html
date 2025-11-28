@@ -31,7 +31,9 @@
 <li>Banco de Dados: Fundamentos de <strong>Banco de Dados</strong> e a linguagem <strong>SQL</strong> para gerenciamento de informações.</li>
 <li>Gestão Web: Conceitos de <strong>Administração Web</strong> e <strong>Adm</strong> de sistemas.</li>
 </ul>
+<br>
 <hr>
+<br>
 </section>
 
  <section id="importancia">
@@ -43,11 +45,11 @@
 <h3>Carreira Profissional</h3>
 <p>No cenário atual, profissionais com conhecimento em desenvolvimento web e banco de dados são altamente requisitados. As habilidades adquiridas abrem portas para uma <strong>carreira profissional sólida</strong> em um mercado em constante expansão, preparando você para ser um desenvolvedor, analista ou gestor de sistemas web.</p>
 </section>
-
+<br>
 <hr>
-
+<br>
 <section id="questionario">
-<h2>❓ Questionário Rápido</h2>
+<h2> Questionário Rápido</h2>
 <p>Responda às perguntas abaixo para refletir sobre seu interesse e conhecimento na área:</p>
 
 
@@ -64,7 +66,7 @@
 <input type="radio" id="curso_nao" name="fez_curso" value="nao">
 <label for="curso_nao">Não</label>
 </p>
-
+<br>
 <p>
 <label><strong>2. Você tem interesse no curso Informática para Internet?</strong></label><br>
 <input type="radio" id="interesse_sim" name="tem_interesse" value="sim">
@@ -72,7 +74,7 @@
 <input type="radio" id="interesse_nao" name="tem_interesse" value="nao">
 <label for="interesse_nao">Não</label>
 </p>
-
+<br>
 <p>
 <label><strong>3. Você gosta de programação?</strong></label><br>
 <input type="radio" id="gosta_sim" name="gosta_prog" value="sim">
@@ -82,44 +84,53 @@
 </p>
 </fieldset>
 
-                                      <fieldset>
-                                      <legend>Conhecimento Técnico</legend>
+<fieldset>
+<legend>Conhecimento Técnico</legend>
+<br>
+<p>
+    <label><strong>4. Quais dessas linguagens você conhece? (Pode marcar todas que se aplicam)</strong></label><br>
+    <input type="checkbox" id="python" name="linguagens" value="python">
+    <label for="python">Python</label><br>
+    <input type="checkbox" id="html" name="linguagens" value="html">
+    <label for="html">HTML</label><br>
+    <input type="checkbox" id="css" name="linguagens" value="css">
+    <label for="css">CSS</label><br>
+    <input type="checkbox" id="sql" name="linguagens" value="sql">
+    <label for="sql">SQL</label><br>
+    <input type="checkbox" id="nenhuma" name="linguagens" value="nenhuma">
+    <label for="nenhuma">Nenhuma</label>
+</p>
+<br>
+<p>
+    <label for="avaliacao"><strong>5. Se você conhece, avalie seu conhecimento de 0 a 10:</strong></label><br>
+    <input type="number" id="avaliacao" name="nivel_de_conhecimento" min="0" max="10" value="5">
+</p>
+</fieldset>
 
-                                      <p>
-                                      <label><strong>4. Quais dessas linguagens você conhece? (Marque todas que se aplicam)</strong></label><br>
-                                      <input type="checkbox" id="python" name="linguagens" value="python">
-                                      <label for="python">Python</label><br>
-                                      <input type="checkbox" id="html" name="linguagens" value="html">
-                                      <label for="html">HTML</label><br>
-                                      <input type="checkbox" id="css" name="linguagens" value="css">
-                                      <label for="css">CSS</label><br>
-                                      <input type="checkbox" id="sql" name="linguagens" value="sql">
-                                      <label for="sql">SQL</label><br>
-                                        <input type="checkbox" id="nenhuma" name="linguagens" value="nenhuma">
-                                          <label for="nenhuma">Nenhuma</label>
-                                            </p>
-
-                                              <p>
-                                                <label for="avaliacao"><strong>5. Se você conhece, avalie seu conhecimento de 0 a 10:</strong></label><br>
-                                                  <input type="number" id="avaliacao" name="nivel_conhecimento" min="0" max="10" value="5">
-                                                    </p>
-                                                      </fieldset>
-
-                                                        <fieldset>
-                                                          <legend>Mensagem Pessoal</legend>
+<fieldset>
+<legend>Mensagem Pessoal</legend>
                                                             
-                                                              <p>
-                                                                <label for="mensagem_vida"><strong>6. Escreva uma mensagem sobre o que a programação será para sua vida:</strong></label><br>
-                                                                <textarea id="mensagem_vida" name="mensagem_vida" rows="5" cols="50" placeholder="Ex: Programação será a ferramenta para construir meu futuro profissional..."></textarea>
-                                                                  </p>
-                                                                    </fieldset>
+<p>
+    <label for="mensagem_vida"><strong>6. Escreva uma mensagem sobre o que a programação será para sua vida:</strong></label><br>
+    <textarea id="mensagem_vida" name="mensagem_vida" rows="5" cols="50" placeholder="Ex.: Programação será a ferramenta para construir meu futuro profissional..."></textarea>
+</p>
+<p>
+    <label for="espera_escola"><strong>7. Quais são suas expectativa se entrar no nosso curso no proximo ano?</strong></label><br>
+    <textarea name="espera_escola" id="espera_escola" rows="5" cols="50" placeholder="Ex.: Minhas expectativas são boas, espero aprender sobre html..."></textarea><br>
+</p>
+<br>
+<p>
+    <label for="recomendacao"><strong>8. Já ouviu alguma recomendação sobre nossa escola e sobre o curso?</strong></label>
+    <textarea name="recomendacao" id="recomendacao" rows="5" cols="50" placeholder="Ex.: Já ouvi sobre a escola, mas não do curso"></textarea>
+</p>
+</fieldset>
+<br>
 
-                                                                      <p>
-                                                                        <input type="submit" value="Enviar Respostas">
-                                                                          <input type="reset" value="Limpar Formulário">
-                                                                            </p>
-
-                                                                              </form>
+<p>
+<input type="submit" value="Enviar Respostas">
+<input type="reset" value="Limpar Formulário">
+</p>
+</form>
 </section>
     </main>
     <footer>
