@@ -199,11 +199,11 @@ main {
 }
 
 .patron-info ul li {
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10"><circle cx="5" cy="5" r="5" fill="%23004d40"/></svg>') no-repeat left center;
     background-size: 8px;
-    padding: 5px 0;
+    padding-left: 15px;
     margin-bottom: 5px;
     line-height: 1.5;
-   
 }
 
 .patron-info p {
@@ -240,8 +240,13 @@ footer {
 }
 .reform ul li{
     list-style: disc;
-    margin-left: 40px;
-    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.container2 img{
+    max-width: 80%;
+    display: block;
+    margin: 0 auto;
 }
 
 .reform p{
