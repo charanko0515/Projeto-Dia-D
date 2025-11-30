@@ -29,6 +29,7 @@ body{
     align-items: center;
     justify-content: flex-end;
     gap: 100px;
+    right: 100px;
     position: relative;
     font-weight: bold;
     color: black;
@@ -44,7 +45,7 @@ body{
     border: 2px solid transparent;
     border-style: solid;
     border-color: #4CAF50;
-    color: ;
+    
 }
 .navbar li:hover {
     background-color: #388E3C;
@@ -63,6 +64,16 @@ body{
     height: 100px;
     position: relative;
 
+}
+.navbar-container img {
+    position: absolute;
+    top: 10px;
+    left: 100px;
+    height: 80px;
+    width: auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
 }
 .navbar a, a:hover, a:focus, a:active, li {
     text-decoration: none;
