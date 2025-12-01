@@ -80,9 +80,7 @@ body{
     color: inherit;
     list-style: none;
 }
-.aboutuslist{
-    list-style: none;
-}
+
 
 
 
@@ -200,6 +198,7 @@ main {
 }
 
 .patron-info ul li {
+    background: url('data:ima0/svg" width="10" height="10" viewBox="0 0 10 10"><circle cx="5" cy="5" r="5" fill="%23004d40"/></svg>') no-repeat left center;
     background-size: 8px;
     padding-left: 15px;
     margin-bottom: 5px;
