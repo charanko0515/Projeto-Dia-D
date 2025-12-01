@@ -327,3 +327,17 @@ footer {
     border-radius: 8px; 
     margin-bottom: 5px;
 }
+
+
+
+
+
+main {
+   font-family:Arial, Helvetica, sans-serif;
+   line-height: 1.6;
+}
+main h1{
+    color: #0056b3;
+    border-bottom: #f4f4f4;
+}
+
