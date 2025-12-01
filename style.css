@@ -248,6 +248,11 @@ footer {
     display: block;
     margin: 0 auto;
 }
+.container3 img{
+    max-width: 80%;
+    display: block;
+    margin: 0 auto;
+}
 
 .reform p{
     margin-bottom: 15px;
