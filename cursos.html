@@ -6,7 +6,7 @@
 <title>João Clímaco</title>
 <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="bodyl">
 
 <header>
     <div class="navbar-container">
@@ -16,23 +16,26 @@
 </ul>
 </div>
 </header>
-<main>
-<header>
-<h1>Curso Técnico em Informática para Internet</h1>
-<p>Escola João Clímaco de Almeida</p>
-<hr>
-</main>
-</header>
+
 
 <main>
+    <header>
+<h1>Cursos</h1>
+<p>Escola João Clímaco d'Almeida</p>
+<hr>
+</header>
+
 <section id="sobre-o-curso">
 <h2>O que Você Aprende</h2>
-<p>O curso prepara você para atuar no desenvolvimento e manutenção de sistemas para web. Cobrimos as tecnologias e práticas essenciais do mercado:</p>
+<p>O curso prepara você para atuar no desenvolvimento e manutenção de sistemas para web e jogos. Cobrimos as tecnologias e práticas essenciais do mercado:</p>
 <ul>
-<li>Linguagens de Programação: <strong>Python</strong> e <strong>Portugol</strong> (Lógica de Programação).</li>
-<li>Desenvolvimento Front-end: <strong>HTML</strong> e <strong>CSS</strong> para estruturar e estilizar páginas web.</li>
-<li>Banco de Dados: Fundamentos de <strong>Banco de Dados</strong> e a linguagem <strong>SQL</strong> para gerenciamento de informações.</li>
-<li>Gestão Web: Conceitos de <strong>Administração Web</strong> e <strong>Adm</strong> de sistemas.</li>
+ <li>Linguagens de Programação: <strong>Python</strong> e <strong>Portugol</strong> (Lógica de Programação).</li>
+ <li>Desenvolvimento Front-end: <strong>HTML</strong> e <strong>CSS</strong> para estruturar e estilizar páginas web.</li>
+ <li>Banco de Dados: Fundamentos de <strong>Banco de Dados</strong> e a linguagem <strong>SQL</strong> para gerenciamento de informações.</li>
+ <li>Gestão Web: Conceitos de <strong>Administração Web</strong> e <strong>Adm</strong> de sistemas.</li>
+ <li>Programação de jogos digitais: <strong>desing e produção</strong>, <strong>arte e mutimídia</strong>, <strong>tecnologia e empreendorimos</strong></li>
+ <li>Administração: <strong>gestão de pessoa</strong>, <strong>finanças</strong>, <strong>logística</strong> e <strong>gestão de progetos</strong> </li>
+ <li>Desenvolvimento de sistema: <strong>Programação</strong>, <strong>banco de Dados</strong>, <strong>engenharia de software</strong>, <strong>infraestrutura e redes</strong> e <strong>Segurança</strong></li>
 </ul>
 <br>
 <hr>
@@ -50,95 +53,8 @@
 </section>
 <br>
 <hr>
-<br>
-<section id="questionario">
-<h2> Questionário Rápido</h2>
-<p>Responda às perguntas abaixo para refletir sobre seu interesse e conhecimento na área:</p>
-
-
-
-<form action="#" method="get"> 
-
-<fieldset>
-<legend>Suas Experiências</legend>
-
-<p>
-<label><strong>1. Você já fez algum curso de informática para internet?</strong></label><br>
-<input type="radio" id="curso_sim" name="fez_curso" value="sim">
-<label for="curso_sim">Sim</label><br>
-<input type="radio" id="curso_nao" name="fez_curso" value="nao">
-<label for="curso_nao">Não</label>
-</p>
-<br>
-<p>
-<label><strong>2. Você tem interesse no curso Informática para Internet?</strong></label><br>
-<input type="radio" id="interesse_sim" name="tem_interesse" value="sim">
-<label for="interesse_sim">Sim</label><br>
-<input type="radio" id="interesse_nao" name="tem_interesse" value="nao">
-<label for="interesse_nao">Não</label>
-</p>
-<br>
-<p>
-<label><strong>3. Você gosta de programação?</strong></label><br>
-<input type="radio" id="gosta_sim" name="gosta_prog" value="sim">
-<label for="gosta_sim">Sim</label><br>
-<input type="radio" id="gosta_nao" name="gosta_prog" value="nao">
-<label for="gosta_nao">Não</label>
-</p>
-</fieldset>
-
-<fieldset>
-<legend>Conhecimento Técnico</legend>
-<br>
-<p>
-    <label><strong>4. Quais dessas linguagens você conhece? (Pode marcar todas que se aplicam)</strong></label><br>
-    <input type="checkbox" id="python" name="linguagens" value="python">
-    <label for="python">Python</label><br>
-    <input type="checkbox" id="html" name="linguagens" value="html">
-    <label for="html">HTML</label><br>
-    <input type="checkbox" id="css" name="linguagens" value="css">
-    <label for="css">CSS</label><br>
-    <input type="checkbox" id="sql" name="linguagens" value="sql">
-    <label for="sql">SQL</label><br>
-    <input type="checkbox" id="nenhuma" name="linguagens" value="nenhuma">
-    <label for="nenhuma">Nenhuma</label>
-</p>
-<br>
-<p>
-    <label for="avaliacao"><strong>5. Se você conhece, avalie seu conhecimento de 0 a 10:</strong></label><br>
-    <input type="number" id="avaliacao" name="nivel_de_conhecimento" min="0" max="10" value="5">
-</p>
-</fieldset>
-
-<fieldset>
-<legend>Mensagem Pessoal</legend>
-                                                            
-<p>
-    <label for="mensagem_vida"><strong>6. Escreva uma mensagem sobre o que a programação será para sua vida:</strong></label><br>
-    <textarea id="mensagem_vida" name="mensagem_vida" rows="5" cols="50" placeholder="Ex.: Programação será a ferramenta para construir meu futuro profissional..."></textarea>
-</p>
-<p>
-    <label for="espera_escola"><strong>7. Quais são suas expectativa se entrar no nosso curso no proximo ano?</strong></label><br>
-    <textarea name="espera_escola" id="espera_escola" rows="5" cols="50" placeholder="Ex.: Minhas expectativas são boas, espero aprender sobre html..."></textarea><br>
-</p>
-<br>
-<p>
-    <label for="recomendacao"><strong>8. Já ouviu alguma recomendação sobre nossa escola e sobre o curso?</strong></label>
-    <textarea name="recomendacao" id="recomendacao" rows="5" cols="50" placeholder="Ex.: Já ouvi sobre a escola, mas não do curso"></textarea>
-</p>
-</fieldset>
-<br>
-
-<p>
-<input type="submit" value="Enviar Respostas">
-<input type="reset" value="Limpar Formulário">
-</p>
-</form>
-</section>
-    </main>
-    <footer>
-        <p>&copy; 2025 CETI Gov. João Clímaco D'Almeida. Todos os direitos reservados.</p>
-    </footer>
+<hr>
+<p>Invista no seu futuro. Invista em tecnologia.</p>
 
 </body>
 </html>
