@@ -442,6 +442,8 @@ footer {
         height: 168.75px;
         overflow: hidden;
         max-width: 300px;
+        justify-content: center;
+        align-self: center;
     }
     
     /* Outras abas */
