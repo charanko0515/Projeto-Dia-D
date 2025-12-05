@@ -123,10 +123,12 @@ main {
    
    
 }
-.video {
+.video-container {
     display: flex;
     justify-content: end;
     border-radius: 10px;
+    width: 640px;
+    height: 360px;
 }
 
 .about-us h1 {
@@ -364,13 +366,8 @@ footer {
  padding: 80px;
  color: white;
 }
-/* Código ESSENCIAL no seu style.css para a div.video-container */
-.video-container {
-	width:900px;
-	height:auto;
-	float:left;
-	background:#FFFFFF;
-}
+
+
 
 /* RESPONSIVIDADE 💀💀💀💀 (SOCORRO) */
 
@@ -397,7 +394,31 @@ footer {
         flex-direction: column;
         
     }
+
+    .index{
+        width: 90%;
+        height: auto;
+        flex-direction: column;
+        display: flex;
+    }
+    .contents{
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .index img{
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
     
+    .video-container {
+        width: 300px;
+        height: 168.75px;
+        overflow: hidden;
+        max-width: 300px;
+    }
     
-    
+
+
+
 }
