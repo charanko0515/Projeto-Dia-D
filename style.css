@@ -388,6 +388,7 @@ footer {
         display: flex;
         flex-wrap: nowrap;
         font-size: 8px;
+        text-align: center;
     }
     .navbar li{
         flex-direction: column;
