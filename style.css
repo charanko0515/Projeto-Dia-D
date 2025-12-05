@@ -34,10 +34,14 @@ body{
     color: black;
     
 }
+.navbar a{
+        display: block;
+        padding: 8px;
+        
+    }
 
 .navbar li{
-    padding: 3px;
-    margin: 5px;
+    
     background-color: #4CAF50;
     border-radius: 8px;
     transition: all 0.3s ease;
@@ -51,8 +55,7 @@ body{
     border-color: rgba(255, 255, 255, 0.2);
     border-style: solid;
     border-radius: 8px;
-    padding: 8px;
-    margin: 0px;
+     transform: scale(1.3);
     transition: background-color 0.3s ease;
     transition: all 0.3s ease;
 }
@@ -392,8 +395,9 @@ footer {
     }
     .navbar li{
         flex-direction: column;
-        width: 1000px;
+        
     }
+    
     
     
 }
