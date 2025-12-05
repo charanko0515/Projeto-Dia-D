@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 html {
-    height: 100%; 
+   
 }
 
 body{
@@ -17,11 +17,10 @@ body{
     background-size: cover;
     margin-bottom: 0;
     font-size: 15px;
-   height: 100%;
-    scroll-behavior: smooth;
-    min-height: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
+    height: 100vh;
 }
 .navbar {
     
@@ -63,7 +62,7 @@ body{
     padding: 35px;
     height: 100px;
     position: relative;
-
+    box-shadow: 0px 10px 15px rgb(82, 82, 82);
 }
 .navbar-container img {
     position: absolute;
@@ -97,18 +96,33 @@ main {
 }
 .index{
     width: 1300px;
+    
     max-width: none;
     margin: 10px auto; 
     padding: 20px;
+    
     background-color: rgba(255, 255, 255, 0.95);
     border-radius: 10px;
-    
+    flex-direction: row;
     text-align: center;
 }
-
+.contents{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: flex-start;
+}
 .index img{
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 360px;
+    border-radius: 10px;
+    display: flex;
+   
+   
+}
+.video {
+    display: flex;
+    justify-content: end;
     border-radius: 10px;
 }
 
@@ -353,4 +367,36 @@ footer {
 	height:auto;
 	float:left;
 	background:#FFFFFF;
+}
+
+/* ----- RESPONSIVIDADE ----- */
+
+/* Tablets (até 900px) */
+@media (max-width: 900px) {
+    .contents {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contents img,
+    .video video {
+        max-width: 100%;
+    }
+}
+
+/* Celulares grandes e médios (até 600px) */
+@media (max-width: 600px) {
+    .index {
+        padding: 15px;
+    }
+
+    .contents img,
+    .video video {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 1.6rem;
+        text-align: center;
+    }
 }
