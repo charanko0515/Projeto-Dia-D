@@ -376,8 +376,23 @@ footer {
  padding: 20px;
  color: white;
 }
-
-
+.sus{
+    text-decoration: none;
+    color:#000000;
+}
+.sus a{
+    text-decoration: none;
+    color:#000000;
+}
+.susimage{
+    width: 10px;
+    height: auto;
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 20px;
+   
+   
+}
 
 /* RESPONSIVIDADE 💀💀💀💀 (SOCORRO) */
 
